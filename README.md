@@ -7,4 +7,9 @@ The multiple transportation data used are all open access. Specifically:
 3. The Citibike trip data is at https://citibikenyc.com/system-data
 
 *Note
-Data cleaning is necessary to all types of dataset.
+Data cleaning is necessary to all types of dataset. Including:
+* keep data with datetime within selected time range for study
+* remove trips with nan O/D infomation
+* remove trips with abnormal ridering time, passanger count, speed, fare fee, wait time, etc.
+  
+*Particularly, subway records may charged a lot due to the reboot of device, which should be taken into consideration when calculating riderships.
