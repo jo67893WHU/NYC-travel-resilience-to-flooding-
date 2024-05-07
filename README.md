@@ -1,15 +1,3 @@
-# NYC-travel-resilience-to-flooding-
-Enhancing urban resilience to extreme weather: roles of transition paths of residents among multiple transportation modes
+# Enhancing urban resilience to extreme weather: roles of transition paths of residents among multiple transportation modes
 
-The multiple transportation data used are all open access. Specifically:
-1. The taxi data and FHV data used are openly available in NYC Taxi & Limousine Commission at https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. The subway data can be linked by NY Open Data at https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-Beginning-February-202/wujg-7c2s/about_data
-3. The Citibike trip data is at https://citibikenyc.com/system-data
-
-*Note
-Data cleaning is necessary to all types of dataset. Including:
-* keep data with datetime within selected time range for study
-* remove trips with nan O/D infomation
-* remove trips with abnormal ridering time, passanger count, speed, fare fee, wait time, etc.
-  
-*Particularly, subway records may charged a lot due to the reboot of device, which should be taken into consideration when calculating riderships.
+Abstract: Understanding how residents adjust mobility patterns in extreme weather is crucial for urban resilience. Existing studies often overlook transitions of mobility between different transportation modes. This study develops a framework that measures the spatiotemporal anomalies of mobilities and builds transition paths across multiple transportation to reveal how residents adapt to extreme weather. Taking four extreme rainfall events in New York City as cases, we find that riders of Citibike have the highest sensitivity to rainfall. In the absence of subway disruptions, they tend to switch to the subway as an alternative. When the subway system is paralyzed, indicating flooding of the system by extreme rainfall, a large amount of ridership shift towards For-Hire Vehicles as a preferred option, followed by taxis, which both demonstrate the value of flexible service in urban resilience. The paralysis-prone subway and the unreasonable demand and uneven distribution of flexible service indicate that current transit infrastructure lacks coordination and is unprepared for climate change. Recommendations for enhancing urban resilience include upgrading and maintaining the subway system; building inter-departmental and inter-transportation-modal coordination; introducing amphibious transportation modes; improving pre-disaster awareness of inland residents; encouraging safety shared ride; and connecting affordable transition paths for underprivileged groups. 
